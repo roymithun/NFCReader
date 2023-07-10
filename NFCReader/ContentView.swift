@@ -2,13 +2,12 @@
 //  ContentView.swift
 //  NFCReader
 //
-//  Created by Arman Morshed on 7/4/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var nfcReader = NFCReader()
+    @StateObject var nfcReader = NFCTagReader()
     
     var body: some View {
         VStack(spacing: 10) {

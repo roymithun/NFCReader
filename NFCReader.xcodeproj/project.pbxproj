@@ -12,6 +12,7 @@
 		B28B648E29E0016F007F80FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B648D29E0016F007F80FF /* Assets.xcassets */; };
 		B28B649129E0016F007F80FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B649029E0016F007F80FF /* Preview Assets.xcassets */; };
 		B28B649929E0035C007F80FF /* NFCReaderObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B649829E0035C007F80FF /* NFCReaderObject.swift */; };
+		B57D85532A1F8E0300DFEFB4 /* NFCTagReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D85522A1F8E0300DFEFB4 /* NFCTagReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B28B649029E0016F007F80FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B28B649729E001C9007F80FF /* NFCReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCReader.entitlements; sourceTree = "<group>"; };
 		B28B649829E0035C007F80FF /* NFCReaderObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReaderObject.swift; sourceTree = "<group>"; };
+		B57D85522A1F8E0300DFEFB4 /* NFCTagReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTagReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B28B648D29E0016F007F80FF /* Assets.xcassets */,
 				B28B648F29E0016F007F80FF /* Preview Content */,
 				B28B649829E0035C007F80FF /* NFCReaderObject.swift */,
+				B57D85522A1F8E0300DFEFB4 /* NFCTagReader.swift */,
 			);
 			path = NFCReader;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				B28B648C29E0016D007F80FF /* ContentView.swift in Sources */,
 				B28B648A29E0016D007F80FF /* NFCReaderApp.swift in Sources */,
 				B28B649929E0035C007F80FF /* NFCReaderObject.swift in Sources */,
+				B57D85532A1F8E0300DFEFB4 /* NFCTagReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +275,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NFCReader/NFCReader.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NFCReader/Preview Content\"";
-				DEVELOPMENT_TEAM = XYSCZDXKR7;
+				DEVELOPMENT_TEAM = 5C8AQLM8UA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Use NFC to read data";
@@ -289,8 +294,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bd.com.monstarlab.NFCReader;
+				PRODUCT_BUNDLE_IDENTIFIER = ae.motf.nfcreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,10 +309,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NFCReader/NFCReader.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NFCReader/Preview Content\"";
-				DEVELOPMENT_TEAM = XYSCZDXKR7;
+				DEVELOPMENT_TEAM = 5C8AQLM8UA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Use NFC to read data";
@@ -321,8 +328,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bd.com.monstarlab.NFCReader;
+				PRODUCT_BUNDLE_IDENTIFIER = ae.motf.nfcreader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
